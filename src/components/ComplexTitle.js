@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { colors } from '../utils';
+
 const ComplexTitle = ({ title, className }) => {
   return (
     <div className={className}>
@@ -19,7 +21,7 @@ const Wrapper = styled(ComplexTitle)`
   .underline {
     width: 5rem;
     height: 0.25rem;
-    background-color: #645cff;
+    background-color: ${colors.primary};
     margin: 1rem auto;
   }
 `;

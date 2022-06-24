@@ -4,6 +4,7 @@ function App() {
   return (
     <div style={{ padding: '2rem' }}>
       <Wrapper title='more complex title' />
+      <Wrapper title='alternative title' />
     </div>
   );
 }

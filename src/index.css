@@ -1,3 +1,7 @@
+:root {
+  --primary: #645cff;
+}
+
 * {
   padding: 0;
   margin: 0;
