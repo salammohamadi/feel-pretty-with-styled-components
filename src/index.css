@@ -11,11 +11,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.title {
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.btn {
-}
