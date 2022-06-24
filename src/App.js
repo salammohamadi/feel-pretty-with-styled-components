@@ -1,10 +1,9 @@
-import Wrapper from './components/ComplexTitle';
+import Card from './components/Card';
 
 function App() {
   return (
     <div style={{ padding: '2rem' }}>
-      <Wrapper title='more complex title' />
-      <Wrapper title='alternative title' />
+      <Card />
     </div>
   );
 }
